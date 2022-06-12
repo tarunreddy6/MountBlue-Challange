@@ -24,7 +24,7 @@ class Result {
      */
 
     public static long repeatedString(String s, long n) {
-    // Write your code here
+    // Write your code here.
         long quo = n/s.length();
         long rem = n%s.length();
         long ans = 0;
