@@ -1,4 +1,4 @@
-copy this (https://www.hackerrank.com/contests/mountblue-technologies/challenges/making-anagrams )for Probem Statement.!
+copy this (https://www.hackerrank.com/contests/mountblue-technologies/challenges/making-anagrams )for Problem Statement.!
 // Happy Coding :)
           
 import java.io.*;
