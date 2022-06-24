@@ -1,17 +1,17 @@
 // Breaking the Records 
 // Happy Coding:)
   
-  def breakingRecords(scores):
+def breakingRecords(scores):
     # Write your code here
-    lo = scores[0]
-    hi = scores[0]
-    lob = 0
-    hib = 0
+    low = scores[0]
+    high = scores[0]
+    min = 0
+    max = 0
     for i in range(1,len(scores)):
-        if scores[i] < lo:
-            lob += 1
-            lo = scores[i]
-        if scores[i] > hi:
-            hib += 1
-            hi = scores[i]
-    return [hib, lob]
+        if scores[i] < low:
+            min = min + 1
+            low = scores[i]
+        if scores[i] > high:
+            max += 1
+            high = scores[i]
+    return [max, min]    
